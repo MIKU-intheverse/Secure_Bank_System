@@ -1,70 +1,82 @@
-🏦 Secure Bank System
-A modern, full-stack digital banking dashboard that prioritizes security, modularity, and real-time user experience. Built using cutting-edge technologies and APIs to simulate a seamless multi-bank system.
+<h1>🏦 Secure Bank System</h1>
 
-⚙️ Tech Stack
-Frontend Framework: Next.js with TypeScript
+<p>A modern, full-stack digital banking dashboard that prioritizes <strong>security</strong>, <strong>modularity</strong>, and <strong>real-time</strong> user experience. Built using cutting-edge technologies and APIs to simulate a seamless multi-bank system.</p>
 
-Authentication & Backend as a Service: Appwrite
+<hr>
 
-Bank Integration APIs: Plaid, Dwolla
+<h2>⚙️ Tech Stack</h2>
+<ul>
+  <li><strong>Frontend Framework</strong>: <a href="https://nextjs.org/">Next.js</a> with TypeScript</li>
+  <li><strong>Authentication & Backend as a Service</strong>: <a href="https://appwrite.io/">Appwrite</a></li>
+  <li><strong>Bank Integration APIs</strong>: <a href="https://plaid.com/">Plaid</a>, <a href="https://www.dwolla.com/">Dwolla</a></li>
+  <li><strong>Form Management</strong>: <a href="https://react-hook-form.com/">React Hook Form</a> + <a href="https://zod.dev/">Zod</a></li>
+  <li><strong>Styling</strong>: <a href="https://tailwindcss.com/">TailwindCSS</a></li>
+  <li><strong>UI Components</strong>: <a href="https://ui.shadcn.dev/">ShadCN</a></li>
+  <li><strong>Data Visualization</strong>: <a href="https://www.chartjs.org/">Chart.js</a></li>
+</ul>
 
-Form Management: React Hook Form + Zod
+<hr>
 
-Styling: TailwindCSS
+<h2>🔋 Features</h2>
 
-UI Components: ShadCN
+<h3>🔐 Authentication</h3>
+<ul>
+  <li>Secure Server-side Rendering (SSR) login & signup</li>
+  <li>Form validation with Zod and role-based access control</li>
+  <li>Persistent login via Appwrite authentication</li>
+</ul>
 
-Data Visualization: Chart.js
+<h3>🏦 Bank Integration</h3>
+<ul>
+  <li>Connect multiple banks using Plaid</li>
+  <li>Real-time onboarding and sync of account info</li>
+</ul>
 
-🔋 Features
-🔐 Authentication
-Secure Server-side Rendering (SSR) based login and signup
+<h3>🧾 Dashboard Overview</h3>
+<ul>
+  <li>Total balance across all banks</li>
+  <li>Visual charts of spending, trends, and categories</li>
+  <li>Recent transactions and activity shortcuts</li>
+</ul>
 
-Form validation with Zod and access control via Appwrite
+<h3>💼 My Banks</h3>
+<ul>
+  <li>List all connected banks with balances and account types</li>
+  <li>Securely remove or update connections</li>
+</ul>
 
-Persistent login with role-based route protection
+<h3>📜 Transaction History</h3>
+<ul>
+  <li>Pagination and filtering by date, category, or amount</li>
+  <li>Search and sort capabilities</li>
+</ul>
 
-🏦 Bank Integration
-Connect and authenticate multiple bank accounts using Plaid
+<h3>💸 Fund Transfers</h3>
+<ul>
+  <li>Send money using Dwolla to other bank accounts</li>
+  <li>Includes recipient bank ID, amount, and note</li>
+  <li>Instant feedback and real-time updates</li>
+</ul>
 
-Seamless onboarding of new bank accounts with real-time status updates
+<h3>📱 Responsive Design</h3>
+<ul>
+  <li>Fully mobile-friendly and adaptive UI</li>
+  <li>Built with TailwindCSS and ShadCN components</li>
+</ul>
 
-🧾 Dashboard Overview
-Unified balance summary across all connected banks
+<hr>
 
-Real-time charts showing spending by category, monthly trends, etc.
+<h2>🧠 Architecture & Code Quality</h2>
+<ul>
+  <li>Modular and scalable folder structure</li>
+  <li>Reusable components and hooks</li>
+  <li>Error handling and optimistic UI updates</li>
+  <li>Strict typing and validation using TypeScript & Zod</li>
+</ul>
 
-Latest transactions, notifications, and action shortcuts
+<hr>
 
-💼 My Banks
-Complete list of connected banks
+<blockquote>
+  💡 <em>This project simulates a secure online banking experience using test/sandbox environments of real APIs (Plaid, Dwolla). Ideal for demos, portfolios, and educational purposes.</em>
+</blockquote>
 
-Detailed view of account name, balance, and account type
-
-Remove or update bank connections securely
-
-📜 Transaction History
-Filter and paginate through historical transactions
-
-Sort by date, bank, category, or amount
-
-💸 Fund Transfers
-Send funds to another bank using Dwolla
-
-Supports recipient bank ID, amount, and memo
-
-Instant UI updates with success/failure handling
-
-📱 Responsive Design
-Fully optimized for desktop, tablet, and mobile
-
-Smooth transitions and UI adaptability via Tailwind and ShadCN
-
-🧠 Architecture & Code Quality
-Modular file structure with reusable components
-
-Form and validation abstraction using React Hook Form + Zod
-
-API integration with error-boundary handling and optimistic UI updates
-
-Scalable, readable codebase with separation of concerns
